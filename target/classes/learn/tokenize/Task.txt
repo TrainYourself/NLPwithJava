@@ -1,0 +1,4 @@
+- Task chính: Phân thành tài liệu thành các units nhỏ hơn (sentences, words).
+
+- Task phụ: chuẩn hóa từ, bỏ đi các "stopword", chuyển từ về từ gốc (adj, adv -> từ gốc),
+text expansion (chuyển từ viết tắt -> dạng đầy đủ).

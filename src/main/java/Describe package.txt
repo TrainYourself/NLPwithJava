@@ -1,0 +1,29 @@
+/*============================================================================*/
+Gồm 2 thư mục:
+1. Learn:
+- Các ví dụ bài tập trong sách. (Xử lý tiếng Anh)
+
+2. Practice:
+- Các bài tập vận dụng, hướng áp dụng chủ yếu tập trung cho xử lý Tiếng Việt.
+
+/*============================================================================*/
+Mỗi thư mục gồm các package sau: (5)
+1. Tokenize:
+- Chứa các lớp hỗ trợ các phương thức:
+   Doc -> Sentences, Sentence -> Word.
+   Chuẩn hóa từ.
+   Loại bỏ đi các "StopWords"
+
+2. Ner (Name Entity Recognition)
+- Chứa các lớp hỗ trợ các phương thức nhận diện ra các thực thể trong câu.
+   Các thực thể có thể là: Tên(người, địa danh), ngày tháng, số...
+   
+3. POS (Part of Speech)
+- Chứa các lớp hỗ trợ các phương thức giúp gán nhãn cho các từ trong câu
+
+4. Classify
+- Chứa các lớp hỗ trợ các phương thức giúp phân loại tài liệu.
+
+5. Relationship
+- Chứa các lớp hỗ trợ các phương thức giúp trích xuất ra mối quan hệ giữa các
+thực thể.
